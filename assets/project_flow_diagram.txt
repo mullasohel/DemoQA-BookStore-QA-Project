@@ -1,0 +1,35 @@
+DemoQA-BookStore-QA-Project/
+│
+├── 📄 README.md
+│   → Main project summary, setup, and results
+│
+├── 📂 manual_tests/
+│   ├── 📊 test_cases.xlsx            → 50 manual test cases
+│   ├── 🐞 bug_report.xlsx            → 15 logged bugs with details
+│   └── 🖼️ screenshots/               → Screenshots of test executions
+│       ├── login_page.png
+│       ├── search_function.png
+│       └── book_details_page.png
+│
+├── ⚙️ api_tests/
+│   ├── 🧪 test_create_user_api.py
+│   ├── 🧪 test_login_api.py
+│   ├── 🧪 test_authorized_login_api.py
+│   ├── 🧪 test_get_books_api.py
+│   ├── 🧪 test_get_book_by_isbn_api.py
+│   ├── 🧪 test_add_book_api.py
+│   ├── 🧪 test_delete_book_api.py
+│   ├── 🧪 test_delete_user_api.py
+│   ├── 📘 README.md                  → API test documentation
+│   └── 📂 postman/
+│       ├── DemoQA_BookStore_API_Collection.json
+│       └── BookStore_Env.json
+│
+├── 📂 reports/
+│   ├── 📑 pytest_report.html         → HTML report of automation results
+│   ├── 📸 api_automation_results.png → Screenshot of pytest terminal output
+│   └── 📈 manual_summary.xlsx        → Optional summary of manual testing
+│
+└── 🎨 assets/
+    ├── 🧩 project_flow_diagram.txt   → Text-based testing workflow diagram
+    └── 🖼️ cover_image.png            → Thumbnail/cover for GitHub or Bento
